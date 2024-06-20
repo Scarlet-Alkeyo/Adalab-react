@@ -1,0 +1,13 @@
+.users{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    margin-left: 15%;
+    
+}
+
+/* .users {
+    flex: 0 1 calc(30% - 20px);
+    max-width: calc(30% - 20px);
+  } */
