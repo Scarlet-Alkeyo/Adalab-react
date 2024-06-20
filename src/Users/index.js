@@ -8,6 +8,8 @@ import { useGetUsers } from "./hooks/useGetUsers"
 
 const Users =()=>{
 
+
+
    const {users,error,loading} = useGetUsers();
    console.log(users);
 
@@ -23,11 +25,8 @@ const Users =()=>{
             gender={users.gender} 
              age={users.age}
              address={users.email}
-            
             />
-            
          )):! loading && <h2>No user found</h2>}
-        </div>
-    )
+        </div>    )
 }
 export default Users
