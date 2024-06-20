@@ -22,6 +22,7 @@ const Users =()=>{
             fullName = {`${users.firstName}  ${users.lastName}  `}
             gender={users.gender} 
              age={users.age}
+             address={users.email}
             
             />
             
